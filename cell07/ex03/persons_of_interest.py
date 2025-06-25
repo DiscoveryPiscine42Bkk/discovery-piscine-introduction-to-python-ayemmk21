@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 def famous_births(figures):
-    # Sort the dictionary items by the inner 'date_of_birth' key (as integer)
     sorted_figures = sorted(figures.values(), key=lambda x: int(x["date_of_birth"]))
     for person in sorted_figures:
         print(f"{person['name']} is a great scientist born in {person['date_of_birth']}.")
