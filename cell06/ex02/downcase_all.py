@@ -11,6 +11,3 @@ if len(words) == 0:
 else:
     for i in words:
         print(downcase(i))
-
-
-
