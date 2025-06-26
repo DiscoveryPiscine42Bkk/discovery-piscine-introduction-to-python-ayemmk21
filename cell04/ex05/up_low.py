@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 prompt = input()
 new = ""
 for i in prompt:
